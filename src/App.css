@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Itim&family=Markazi+Text:wght@400..700&family=Poiret+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+.ff-gummy {
+  font-family: "Sour Gummy", sans-serif;
+}
+* {
+  font-family: "Sour Gummy", sans-serif;
+}
+.scroll-container {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+  scroll-behavior: smooth;
+}
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for cleaner UI */
+}
+.product-each {
+  box-shadow: 3px 3px 3px 3px grey;
+}
+.product-each:hover {
+  filter: brightness(90%);
+  scale: 1.1;
+  transition: 0.6s;
+}
